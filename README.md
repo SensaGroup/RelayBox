@@ -13,7 +13,7 @@ The PCB is an interface using banana plugs whit relays, these relays are used to
 - VCC and GND pass trough. 
 
 ## Software
-These relays can be controlled whitout software, however the entented way is to control the operation using the SENSA GROUP fortis PLC. 
+These relays can be controlled whitout software, however the entented way is to control the operations using the SENSA GROUP fortis PLC. 
 
 ## Pictures
-![Top_view](https://github.com/SensaGroup/RelayBox/Documents/Pictures/profile.jpg)
+![Top_view](https://github.com/SensaGroup/RelayBox/blob/main/Documents/Pictures/profile.jpg)
