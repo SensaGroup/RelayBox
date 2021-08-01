@@ -1,0 +1,23 @@
+(module BananaPlug_custom (layer F.Cu) (tedit 61052E74)
+  (fp_text reference REF** (at 7.65 -1.7) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value BananaPlug_custom (at 0.21 -9.73) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 thru_hole custom (at 0 0) (size 6 6) (drill 4) (layers *.Cu *.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy 0 0) (xy 3 3) (xy 0 3)) (width 0))
+      (gr_poly (pts
+         (xy 0 0) (xy 0 3) (xy -3 3)) (width 0))
+    ))
+  (pad 1 thru_hole roundrect (at 0 4 270) (size 2 7) (drill oval 1 6) (layers *.Cu *.Mask) (roundrect_rratio 0.25))
+  (model "${KIPRJMOD}/Additions/4mm_Binding_Post_Banana_black v2.step"
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)

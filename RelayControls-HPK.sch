@@ -55,7 +55,7 @@ U 1 1 60FB6410
 P 1000 3550
 F 0 "J8" H 1000 3600 50  0000 L CNN
 F 1 "+" V 1000 3450 50  0000 L CNN
-F 2 "Connector:Banana_Jack_1Pin" H 1000 3550 50  0001 C CNN
+F 2 "additions:BananaPlug_custom" H 1000 3550 50  0001 C CNN
 F 3 "~" H 1000 3550 50  0001 C CNN
 	1    1000 3550
 	1    0    0    -1  
@@ -104,7 +104,7 @@ U 1 1 60FC3B35
 P 1540 5240
 F 0 "J4" H 1550 5190 50  0000 C CNN
 F 1 "COM" H 1440 5240 50  0000 C CNN
-F 2 "Connector:Banana_Jack_1Pin" H 1540 5240 50  0001 C CNN
+F 2 "additions:BananaPlug_custom" H 1540 5240 50  0001 C CNN
 F 3 "~" H 1540 5240 50  0001 C CNN
 	1    1540 5240
 	-1   0    0    1   
@@ -115,7 +115,7 @@ U 1 1 60FC4583
 P 1940 5140
 F 0 "J9" H 1980 5190 50  0000 C CNN
 F 1 "NO" H 1840 5140 50  0000 C CNN
-F 2 "Connector:Banana_Jack_1Pin" H 1940 5140 50  0001 C CNN
+F 2 "additions:BananaPlug_custom" H 1940 5140 50  0001 C CNN
 F 3 "~" H 1940 5140 50  0001 C CNN
 	1    1940 5140
 	1    0    0    -1  
@@ -126,7 +126,7 @@ U 1 1 60FC4BFB
 P 1940 5340
 F 0 "J10" H 1970 5400 50  0000 C CNN
 F 1 "NC" H 1840 5340 50  0000 C CNN
-F 2 "Connector:Banana_Jack_1Pin" H 1940 5340 50  0001 C CNN
+F 2 "additions:BananaPlug_custom" H 1940 5340 50  0001 C CNN
 F 3 "~" H 1940 5340 50  0001 C CNN
 	1    1940 5340
 	1    0    0    -1  
@@ -178,7 +178,7 @@ U 1 1 60FB6FA3
 P 1100 2850
 F 0 "J3" H 1100 2800 50  0000 L CNN
 F 1 "-" H 1050 2900 50  0000 L CNN
-F 2 "Connector:Banana_Jack_1Pin" H 1100 2850 50  0001 C CNN
+F 2 "additions:BananaPlug_custom" H 1100 2850 50  0001 C CNN
 F 3 "~" H 1100 2850 50  0001 C CNN
 	1    1100 2850
 	1    0    0    -1  
@@ -279,7 +279,7 @@ U 1 1 6103045D
 P 3250 3550
 F 0 "J22" H 3220 3600 50  0000 L CNN
 F 1 "+" V 3250 3450 50  0000 L CNN
-F 2 "Connector:Banana_Jack_1Pin" H 3250 3550 50  0001 C CNN
+F 2 "additions:BananaPlug_custom" H 3250 3550 50  0001 C CNN
 F 3 "~" H 3250 3550 50  0001 C CNN
 	1    3250 3550
 	1    0    0    -1  
@@ -369,7 +369,7 @@ U 1 1 6103049E
 P 3350 2850
 F 0 "J17" H 3350 2800 50  0000 L CNN
 F 1 "-" H 3300 2900 50  0000 L CNN
-F 2 "Connector:Banana_Jack_1Pin" H 3350 2850 50  0001 C CNN
+F 2 "additions:BananaPlug_custom" H 3350 2850 50  0001 C CNN
 F 3 "~" H 3350 2850 50  0001 C CNN
 	1    3350 2850
 	1    0    0    -1  
@@ -447,7 +447,7 @@ U 1 1 61040DF4
 P 5500 3550
 F 0 "J36" H 5460 3600 50  0000 L CNN
 F 1 "+" V 5500 3450 50  0000 L CNN
-F 2 "Connector:Banana_Jack_1Pin" H 5500 3550 50  0001 C CNN
+F 2 "additions:BananaPlug_custom" H 5500 3550 50  0001 C CNN
 F 3 "~" H 5500 3550 50  0001 C CNN
 	1    5500 3550
 	1    0    0    -1  
@@ -537,7 +537,7 @@ U 1 1 61040E35
 P 5600 2850
 F 0 "J31" H 5600 2800 50  0000 L CNN
 F 1 "-" H 5550 2900 50  0000 L CNN
-F 2 "Connector:Banana_Jack_1Pin" H 5600 2850 50  0001 C CNN
+F 2 "additions:BananaPlug_custom" H 5600 2850 50  0001 C CNN
 F 3 "~" H 5600 2850 50  0001 C CNN
 	1    5600 2850
 	1    0    0    -1  
@@ -579,7 +579,7 @@ U 1 1 60FB915B
 P 7450 1750
 F 0 "J45" H 7450 1800 50  0000 L CNN
 F 1 "+" V 7450 1650 50  0000 L CNN
-F 2 "Connector:Banana_Jack_1Pin" H 7450 1750 50  0001 C CNN
+F 2 "additions:BananaPlug_custom" H 7450 1750 50  0001 C CNN
 F 3 "~" H 7450 1750 50  0001 C CNN
 	1    7450 1750
 	-1   0    0    1   
@@ -590,7 +590,7 @@ U 1 1 60FB406B
 P 800 1750
 F 0 "J1" H 800 1700 50  0000 L CNN
 F 1 "+" V 800 1800 50  0000 L CNN
-F 2 "Connector:Banana_Jack_1Pin" H 800 1750 50  0001 C CNN
+F 2 "additions:BananaPlug_custom" H 800 1750 50  0001 C CNN
 F 3 "~" H 800 1750 50  0001 C CNN
 	1    800  1750
 	1    0    0    -1  
@@ -609,7 +609,7 @@ U 1 1 612B1A40
 P 7475 9720
 F 0 "J46" H 7475 9770 50  0000 L CNN
 F 1 "-" H 7475 9620 50  0000 L CNN
-F 2 "Connector:Banana_Jack_1Pin" H 7475 9720 50  0001 C CNN
+F 2 "additions:BananaPlug_custom" H 7475 9720 50  0001 C CNN
 F 3 "~" H 7475 9720 50  0001 C CNN
 	1    7475 9720
 	-1   0    0    1   
@@ -620,7 +620,7 @@ U 1 1 612B1A46
 P 825 9720
 F 0 "J2" H 825 9670 50  0000 L CNN
 F 1 "-" H 825 9770 50  0000 L CNN
-F 2 "Connector:Banana_Jack_1Pin" H 825 9720 50  0001 C CNN
+F 2 "additions:BananaPlug_custom" H 825 9720 50  0001 C CNN
 F 3 "~" H 825 9720 50  0001 C CNN
 	1    825  9720
 	1    0    0    -1  
@@ -718,7 +718,7 @@ U 1 1 610EAB30
 P 1540 6370
 F 0 "J6" H 1540 6320 50  0000 C CNN
 F 1 "COM" H 1440 6370 50  0000 C CNN
-F 2 "Connector:Banana_Jack_1Pin" H 1540 6370 50  0001 C CNN
+F 2 "additions:BananaPlug_custom" H 1540 6370 50  0001 C CNN
 F 3 "~" H 1540 6370 50  0001 C CNN
 	1    1540 6370
 	-1   0    0    1   
@@ -729,7 +729,7 @@ U 1 1 610EAB36
 P 1940 6270
 F 0 "J13" H 1960 6320 50  0000 C CNN
 F 1 "NO" H 1840 6270 50  0000 C CNN
-F 2 "Connector:Banana_Jack_1Pin" H 1940 6270 50  0001 C CNN
+F 2 "additions:BananaPlug_custom" H 1940 6270 50  0001 C CNN
 F 3 "~" H 1940 6270 50  0001 C CNN
 	1    1940 6270
 	1    0    0    -1  
@@ -740,7 +740,7 @@ U 1 1 610EAB3C
 P 1940 6470
 F 0 "J14" H 1970 6520 50  0000 C CNN
 F 1 "NC" H 1840 6470 50  0000 C CNN
-F 2 "Connector:Banana_Jack_1Pin" H 1940 6470 50  0001 C CNN
+F 2 "additions:BananaPlug_custom" H 1940 6470 50  0001 C CNN
 F 3 "~" H 1940 6470 50  0001 C CNN
 	1    1940 6470
 	1    0    0    -1  
@@ -859,7 +859,7 @@ U 1 1 610F2B65
 P 1530 7540
 F 0 "J5" H 1530 7490 50  0000 C CNN
 F 1 "COM" H 1430 7540 50  0000 C CNN
-F 2 "Connector:Banana_Jack_1Pin" H 1530 7540 50  0001 C CNN
+F 2 "additions:BananaPlug_custom" H 1530 7540 50  0001 C CNN
 F 3 "~" H 1530 7540 50  0001 C CNN
 	1    1530 7540
 	-1   0    0    1   
@@ -870,7 +870,7 @@ U 1 1 610F2B6B
 P 1930 7440
 F 0 "J11" H 1960 7490 50  0000 C CNN
 F 1 "NO" H 1830 7440 50  0000 C CNN
-F 2 "Connector:Banana_Jack_1Pin" H 1930 7440 50  0001 C CNN
+F 2 "additions:BananaPlug_custom" H 1930 7440 50  0001 C CNN
 F 3 "~" H 1930 7440 50  0001 C CNN
 	1    1930 7440
 	1    0    0    -1  
@@ -881,7 +881,7 @@ U 1 1 610F2B71
 P 1930 7640
 F 0 "J12" H 1960 7690 50  0000 C CNN
 F 1 "NC" H 1830 7640 50  0000 C CNN
-F 2 "Connector:Banana_Jack_1Pin" H 1930 7640 50  0001 C CNN
+F 2 "additions:BananaPlug_custom" H 1930 7640 50  0001 C CNN
 F 3 "~" H 1930 7640 50  0001 C CNN
 	1    1930 7640
 	1    0    0    -1  
@@ -1000,7 +1000,7 @@ U 1 1 610FC092
 P 1540 8700
 F 0 "J7" H 1540 8650 50  0000 C CNN
 F 1 "COM" H 1440 8700 50  0000 C CNN
-F 2 "Connector:Banana_Jack_1Pin" H 1540 8700 50  0001 C CNN
+F 2 "additions:BananaPlug_custom" H 1540 8700 50  0001 C CNN
 F 3 "~" H 1540 8700 50  0001 C CNN
 	1    1540 8700
 	-1   0    0    1   
@@ -1011,7 +1011,7 @@ U 1 1 610FC098
 P 1940 8600
 F 0 "J15" H 1970 8650 50  0000 C CNN
 F 1 "NO" H 1840 8600 50  0000 C CNN
-F 2 "Connector:Banana_Jack_1Pin" H 1940 8600 50  0001 C CNN
+F 2 "additions:BananaPlug_custom" H 1940 8600 50  0001 C CNN
 F 3 "~" H 1940 8600 50  0001 C CNN
 	1    1940 8600
 	1    0    0    -1  
@@ -1022,7 +1022,7 @@ U 1 1 610FC09E
 P 1940 8800
 F 0 "J16" H 1970 8850 50  0000 C CNN
 F 1 "NC" H 1840 8800 50  0000 C CNN
-F 2 "Connector:Banana_Jack_1Pin" H 1940 8800 50  0001 C CNN
+F 2 "additions:BananaPlug_custom" H 1940 8800 50  0001 C CNN
 F 3 "~" H 1940 8800 50  0001 C CNN
 	1    1940 8800
 	1    0    0    -1  
@@ -1139,7 +1139,7 @@ U 1 1 61119503
 P 3760 5250
 F 0 "J19" H 3780 5200 50  0000 C CNN
 F 1 "COM" H 3660 5250 50  0000 C CNN
-F 2 "Connector:Banana_Jack_1Pin" H 3760 5250 50  0001 C CNN
+F 2 "additions:BananaPlug_custom" H 3760 5250 50  0001 C CNN
 F 3 "~" H 3760 5250 50  0001 C CNN
 	1    3760 5250
 	-1   0    0    1   
@@ -1150,7 +1150,7 @@ U 1 1 61119509
 P 4160 5150
 F 0 "J25" H 4190 5200 50  0000 C CNN
 F 1 "NO" H 4060 5150 50  0000 C CNN
-F 2 "Connector:Banana_Jack_1Pin" H 4160 5150 50  0001 C CNN
+F 2 "additions:BananaPlug_custom" H 4160 5150 50  0001 C CNN
 F 3 "~" H 4160 5150 50  0001 C CNN
 	1    4160 5150
 	1    0    0    -1  
@@ -1161,7 +1161,7 @@ U 1 1 6111950F
 P 4160 5350
 F 0 "J26" H 4190 5400 50  0000 C CNN
 F 1 "NC" H 4060 5350 50  0000 C CNN
-F 2 "Connector:Banana_Jack_1Pin" H 4160 5350 50  0001 C CNN
+F 2 "additions:BananaPlug_custom" H 4160 5350 50  0001 C CNN
 F 3 "~" H 4160 5350 50  0001 C CNN
 	1    4160 5350
 	1    0    0    -1  
@@ -1280,7 +1280,7 @@ U 1 1 61119550
 P 3760 6380
 F 0 "J20" H 3780 6330 50  0000 C CNN
 F 1 "COM" H 3660 6380 50  0000 C CNN
-F 2 "Connector:Banana_Jack_1Pin" H 3760 6380 50  0001 C CNN
+F 2 "additions:BananaPlug_custom" H 3760 6380 50  0001 C CNN
 F 3 "~" H 3760 6380 50  0001 C CNN
 	1    3760 6380
 	-1   0    0    1   
@@ -1291,7 +1291,7 @@ U 1 1 61119556
 P 4160 6280
 F 0 "J27" H 4200 6340 50  0000 C CNN
 F 1 "NO" H 4060 6280 50  0000 C CNN
-F 2 "Connector:Banana_Jack_1Pin" H 4160 6280 50  0001 C CNN
+F 2 "additions:BananaPlug_custom" H 4160 6280 50  0001 C CNN
 F 3 "~" H 4160 6280 50  0001 C CNN
 	1    4160 6280
 	1    0    0    -1  
@@ -1302,7 +1302,7 @@ U 1 1 6111955C
 P 4160 6480
 F 0 "J28" H 4200 6530 50  0000 C CNN
 F 1 "NC" H 4060 6480 50  0000 C CNN
-F 2 "Connector:Banana_Jack_1Pin" H 4160 6480 50  0001 C CNN
+F 2 "additions:BananaPlug_custom" H 4160 6480 50  0001 C CNN
 F 3 "~" H 4160 6480 50  0001 C CNN
 	1    4160 6480
 	1    0    0    -1  
@@ -1421,7 +1421,7 @@ U 1 1 6111959D
 P 3750 7550
 F 0 "J18" H 3780 7500 50  0000 C CNN
 F 1 "COM" H 3650 7550 50  0000 C CNN
-F 2 "Connector:Banana_Jack_1Pin" H 3750 7550 50  0001 C CNN
+F 2 "additions:BananaPlug_custom" H 3750 7550 50  0001 C CNN
 F 3 "~" H 3750 7550 50  0001 C CNN
 	1    3750 7550
 	-1   0    0    1   
@@ -1432,7 +1432,7 @@ U 1 1 611195A3
 P 4150 7450
 F 0 "J23" H 4180 7500 50  0000 C CNN
 F 1 "NO" H 4050 7450 50  0000 C CNN
-F 2 "Connector:Banana_Jack_1Pin" H 4150 7450 50  0001 C CNN
+F 2 "additions:BananaPlug_custom" H 4150 7450 50  0001 C CNN
 F 3 "~" H 4150 7450 50  0001 C CNN
 	1    4150 7450
 	1    0    0    -1  
@@ -1443,7 +1443,7 @@ U 1 1 611195A9
 P 4150 7650
 F 0 "J24" H 4170 7710 50  0000 C CNN
 F 1 "NC" H 4050 7650 50  0000 C CNN
-F 2 "Connector:Banana_Jack_1Pin" H 4150 7650 50  0001 C CNN
+F 2 "additions:BananaPlug_custom" H 4150 7650 50  0001 C CNN
 F 3 "~" H 4150 7650 50  0001 C CNN
 	1    4150 7650
 	1    0    0    -1  
@@ -1562,7 +1562,7 @@ U 1 1 611195EA
 P 3760 8710
 F 0 "J21" H 3790 8660 50  0000 C CNN
 F 1 "COM" H 3660 8710 50  0000 C CNN
-F 2 "Connector:Banana_Jack_1Pin" H 3760 8710 50  0001 C CNN
+F 2 "additions:BananaPlug_custom" H 3760 8710 50  0001 C CNN
 F 3 "~" H 3760 8710 50  0001 C CNN
 	1    3760 8710
 	-1   0    0    1   
@@ -1573,7 +1573,7 @@ U 1 1 611195F0
 P 4160 8610
 F 0 "J29" H 4190 8660 50  0000 C CNN
 F 1 "NO" H 4060 8610 50  0000 C CNN
-F 2 "Connector:Banana_Jack_1Pin" H 4160 8610 50  0001 C CNN
+F 2 "additions:BananaPlug_custom" H 4160 8610 50  0001 C CNN
 F 3 "~" H 4160 8610 50  0001 C CNN
 	1    4160 8610
 	1    0    0    -1  
@@ -1584,7 +1584,7 @@ U 1 1 611195F6
 P 4160 8810
 F 0 "J30" H 4180 8860 50  0000 C CNN
 F 1 "NC" H 4060 8810 50  0000 C CNN
-F 2 "Connector:Banana_Jack_1Pin" H 4160 8810 50  0001 C CNN
+F 2 "additions:BananaPlug_custom" H 4160 8810 50  0001 C CNN
 F 3 "~" H 4160 8810 50  0001 C CNN
 	1    4160 8810
 	1    0    0    -1  
@@ -1701,7 +1701,7 @@ U 1 1 61138415
 P 6030 5240
 F 0 "J33" H 6060 5180 50  0000 C CNN
 F 1 "COM" H 5930 5240 50  0000 C CNN
-F 2 "Connector:Banana_Jack_1Pin" H 6030 5240 50  0001 C CNN
+F 2 "additions:BananaPlug_custom" H 6030 5240 50  0001 C CNN
 F 3 "~" H 6030 5240 50  0001 C CNN
 	1    6030 5240
 	-1   0    0    1   
@@ -1712,7 +1712,7 @@ U 1 1 6113841B
 P 6430 5140
 F 0 "J39" H 6460 5190 50  0000 C CNN
 F 1 "NO" H 6330 5140 50  0000 C CNN
-F 2 "Connector:Banana_Jack_1Pin" H 6430 5140 50  0001 C CNN
+F 2 "additions:BananaPlug_custom" H 6430 5140 50  0001 C CNN
 F 3 "~" H 6430 5140 50  0001 C CNN
 	1    6430 5140
 	1    0    0    -1  
@@ -1723,7 +1723,7 @@ U 1 1 61138421
 P 6430 5340
 F 0 "J40" H 6460 5390 50  0000 C CNN
 F 1 "NC" H 6330 5340 50  0000 C CNN
-F 2 "Connector:Banana_Jack_1Pin" H 6430 5340 50  0001 C CNN
+F 2 "additions:BananaPlug_custom" H 6430 5340 50  0001 C CNN
 F 3 "~" H 6430 5340 50  0001 C CNN
 	1    6430 5340
 	1    0    0    -1  
@@ -1840,7 +1840,7 @@ U 1 1 61138462
 P 6030 6370
 F 0 "J34" H 6060 6310 50  0000 C CNN
 F 1 "COM" H 5930 6370 50  0000 C CNN
-F 2 "Connector:Banana_Jack_1Pin" H 6030 6370 50  0001 C CNN
+F 2 "additions:BananaPlug_custom" H 6030 6370 50  0001 C CNN
 F 3 "~" H 6030 6370 50  0001 C CNN
 	1    6030 6370
 	-1   0    0    1   
@@ -1851,7 +1851,7 @@ U 1 1 61138468
 P 6430 6270
 F 0 "J41" H 6460 6320 50  0000 C CNN
 F 1 "NO" H 6330 6270 50  0000 C CNN
-F 2 "Connector:Banana_Jack_1Pin" H 6430 6270 50  0001 C CNN
+F 2 "additions:BananaPlug_custom" H 6430 6270 50  0001 C CNN
 F 3 "~" H 6430 6270 50  0001 C CNN
 	1    6430 6270
 	1    0    0    -1  
@@ -1862,7 +1862,7 @@ U 1 1 6113846E
 P 6430 6470
 F 0 "J42" H 6450 6520 50  0000 C CNN
 F 1 "NC" H 6330 6470 50  0000 C CNN
-F 2 "Connector:Banana_Jack_1Pin" H 6430 6470 50  0001 C CNN
+F 2 "additions:BananaPlug_custom" H 6430 6470 50  0001 C CNN
 F 3 "~" H 6430 6470 50  0001 C CNN
 	1    6430 6470
 	1    0    0    -1  
@@ -1975,7 +1975,7 @@ U 1 1 611384AF
 P 6020 7540
 F 0 "J32" H 6050 7480 50  0000 C CNN
 F 1 "COM" H 5920 7540 50  0000 C CNN
-F 2 "Connector:Banana_Jack_1Pin" H 6020 7540 50  0001 C CNN
+F 2 "additions:BananaPlug_custom" H 6020 7540 50  0001 C CNN
 F 3 "~" H 6020 7540 50  0001 C CNN
 	1    6020 7540
 	-1   0    0    1   
@@ -1986,7 +1986,7 @@ U 1 1 611384B5
 P 6420 7440
 F 0 "J37" H 6450 7490 50  0000 C CNN
 F 1 "NO" H 6320 7440 50  0000 C CNN
-F 2 "Connector:Banana_Jack_1Pin" H 6420 7440 50  0001 C CNN
+F 2 "additions:BananaPlug_custom" H 6420 7440 50  0001 C CNN
 F 3 "~" H 6420 7440 50  0001 C CNN
 	1    6420 7440
 	1    0    0    -1  
@@ -1997,7 +1997,7 @@ U 1 1 611384BB
 P 6420 7640
 F 0 "J38" H 6450 7700 50  0000 C CNN
 F 1 "NC" H 6320 7640 50  0000 C CNN
-F 2 "Connector:Banana_Jack_1Pin" H 6420 7640 50  0001 C CNN
+F 2 "additions:BananaPlug_custom" H 6420 7640 50  0001 C CNN
 F 3 "~" H 6420 7640 50  0001 C CNN
 	1    6420 7640
 	1    0    0    -1  
@@ -2099,7 +2099,7 @@ U 1 1 611384FC
 P 6030 8700
 F 0 "J35" H 6040 8640 50  0000 C CNN
 F 1 "COM" H 5930 8700 50  0000 C CNN
-F 2 "Connector:Banana_Jack_1Pin" H 6030 8700 50  0001 C CNN
+F 2 "additions:BananaPlug_custom" H 6030 8700 50  0001 C CNN
 F 3 "~" H 6030 8700 50  0001 C CNN
 	1    6030 8700
 	-1   0    0    1   
@@ -2110,7 +2110,7 @@ U 1 1 61138502
 P 6430 8600
 F 0 "J43" H 6460 8650 50  0000 C CNN
 F 1 "NO" H 6330 8600 50  0000 C CNN
-F 2 "Connector:Banana_Jack_1Pin" H 6430 8600 50  0001 C CNN
+F 2 "additions:BananaPlug_custom" H 6430 8600 50  0001 C CNN
 F 3 "~" H 6430 8600 50  0001 C CNN
 	1    6430 8600
 	1    0    0    -1  
@@ -2121,7 +2121,7 @@ U 1 1 61138508
 P 6430 8800
 F 0 "J44" H 6460 8850 50  0000 C CNN
 F 1 "NC" H 6330 8800 50  0000 C CNN
-F 2 "Connector:Banana_Jack_1Pin" H 6430 8800 50  0001 C CNN
+F 2 "additions:BananaPlug_custom" H 6430 8800 50  0001 C CNN
 F 3 "~" H 6430 8800 50  0001 C CNN
 	1    6430 8800
 	1    0    0    -1  
