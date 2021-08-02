@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L AGQ200A24Z:AGQ200A24Z K1
+L RelayControls-HPK-rescue:AGQ200A24Z-AGQ200A24Z K1
 U 1 1 60FB0D36
 P 1300 4100
 F 0 "K1" H 1900 3650 50  0000 C CNN
@@ -52,44 +52,31 @@ Wire Wire Line
 $Comp
 L Connector:Conn_01x01_Male J8
 U 1 1 60FB6410
-P 1000 3550
-F 0 "J8" H 1000 3600 50  0000 L CNN
-F 1 "+" V 1000 3450 50  0000 L CNN
-F 2 "additions:BananaPlug_custom" H 1000 3550 50  0001 C CNN
-F 3 "~" H 1000 3550 50  0001 C CNN
-	1    1000 3550
+P 950 2910
+F 0 "J8" H 950 2960 50  0000 L CNN
+F 1 "+" V 950 2810 50  0000 L CNN
+F 2 "additions:BananaPlug_custom" H 950 2910 50  0001 C CNN
+F 3 "~" H 950 2910 50  0001 C CNN
+	1    950  2910
 	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Q_PMOS_GSD Q1
-U 1 1 60FBC75F
-P 1500 3450
-F 0 "Q1" V 1749 3450 50  0000 C CNN
-F 1 "P_MOS" V 1840 3450 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:TO-252-3_TabPin2" H 1700 3550 50  0001 C CNN
-F 3 "https://www.renesas.com/us/en/document/dst/np36p06slg-data-sheet" H 1500 3450 50  0001 C CNN
-	1    1500 3450
-	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R1
 U 1 1 60FBFF39
-P 1500 3000
-F 0 "R1" H 1430 2954 50  0000 R CNN
-F 1 "100K" H 1430 3045 50  0000 R CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" V 1430 3000 50  0001 C CNN
-F 3 "~" H 1500 3000 50  0001 C CNN
-	1    1500 3000
-	-1   0    0    1   
+P 1810 3460
+F 0 "R1" H 1740 3414 50  0000 R CNN
+F 1 "10K" H 1740 3505 50  0000 R CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 1740 3460 50  0001 C CNN
+F 3 "~" H 1810 3460 50  0001 C CNN
+	1    1810 3460
+	1    0    0    -1  
 $EndComp
-Text GLabel 1750 3550 2    50   Input ~ 0
+Text GLabel 2110 2910 2    50   Input ~ 0
 R1+
 Wire Wire Line
-	1750 3550 1700 3550
+	2060 2910 2110 2910
 Wire Wire Line
-	1250 3550 1200 3550
-Wire Wire Line
-	1350 2850 1350 2750
+	1960 3610 1960 3710
 Text GLabel 2650 3650 3    50   Input ~ 0
 R1+
 Wire Wire Line
@@ -156,43 +143,43 @@ Wire Wire Line
 Wire Wire Line
 	2650 4400 2500 4400
 Wire Wire Line
-	1500 3150 1500 3200
+	1810 3310 1810 3260
 Wire Wire Line
-	1250 3200 1500 3200
-Connection ~ 1500 3200
+	2060 3260 1810 3260
+Connection ~ 1810 3260
 Wire Wire Line
-	1500 3200 1500 3250
+	1810 3260 1810 3210
 Wire Wire Line
-	1250 3500 1250 3550
+	2060 2960 2060 2910
 Wire Wire Line
-	1250 3550 1300 3550
+	2060 2910 2010 2910
 Wire Wire Line
-	1300 2850 1350 2850
-Text GLabel 1300 2700 0    50   Input ~ 0
+	2010 3610 1960 3610
+Text GLabel 2010 3760 2    50   Input ~ 0
 R1-
 Wire Wire Line
-	1300 2700 1350 2700
+	2010 3760 1960 3760
 $Comp
 L Connector:Conn_01x01_Male J3
 U 1 1 60FB6FA3
-P 1100 2850
-F 0 "J3" H 1100 2800 50  0000 L CNN
-F 1 "-" H 1050 2900 50  0000 L CNN
-F 2 "additions:BananaPlug_custom" H 1100 2850 50  0001 C CNN
-F 3 "~" H 1100 2850 50  0001 C CNN
-	1    1100 2850
-	1    0    0    -1  
+P 2210 3610
+F 0 "J3" H 2210 3560 50  0000 L CNN
+F 1 "-" H 2160 3660 50  0000 L CNN
+F 2 "additions:BananaPlug_custom" H 2210 3610 50  0001 C CNN
+F 3 "~" H 2210 3610 50  0001 C CNN
+	1    2210 3610
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Zener D1
 U 1 1 60FB966D
-P 1250 3350
-F 0 "D1" V 1350 3400 50  0000 C CNN
-F 1 "D_Zener" V 1450 3300 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-323" H 1250 3350 50  0001 C CNN
-F 3 "https://my.centralsemi.com/datasheets/CMDZ5221B-61B.PDF" H 1250 3350 50  0001 C CNN
-	1    1250 3350
-	0    -1   -1   0   
+P 2060 3110
+F 0 "D1" V 2160 3160 50  0000 C CNN
+F 1 "D_Zener" V 2260 3060 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-323" H 2060 3110 50  0001 C CNN
+F 3 "https://my.centralsemi.com/datasheets/CMDZ5221B-61B.PDF" H 2060 3110 50  0001 C CNN
+	1    2060 3110
+	0    1    1    0   
 $EndComp
 Text GLabel 2650 4100 2    50   Input ~ 0
 R1-
@@ -203,13 +190,13 @@ Wire Wire Line
 Wire Wire Line
 	2500 4100 2650 4100
 Wire Wire Line
-	1350 2700 1350 2750
-Connection ~ 1350 2750
-Connection ~ 1250 3550
+	1960 3760 1960 3710
+Connection ~ 1960 3710
+Connection ~ 2060 2910
 Wire Wire Line
-	1350 2750 1500 2750
+	1960 3710 1810 3710
 Wire Wire Line
-	1500 2750 1500 2850
+	1810 3710 1810 3610
 Text GLabel 2240 5340 2    50   Input ~ 0
 NC1
 Text GLabel 1240 5240 0    50   Input ~ 0
@@ -238,7 +225,7 @@ R1-
 Wire Bus Line
 	800  2500 3000 2500
 $Comp
-L AGQ200A24Z:AGQ200A24Z K2
+L RelayControls-HPK-rescue:AGQ200A24Z-AGQ200A24Z K2
 U 1 1 6103044A
 P 3550 4100
 F 0 "K2" H 4150 3650 50  0000 C CNN
@@ -276,44 +263,31 @@ Wire Wire Line
 $Comp
 L Connector:Conn_01x01_Male J22
 U 1 1 6103045D
-P 3250 3550
-F 0 "J22" H 3220 3600 50  0000 L CNN
-F 1 "+" V 3250 3450 50  0000 L CNN
-F 2 "additions:BananaPlug_custom" H 3250 3550 50  0001 C CNN
-F 3 "~" H 3250 3550 50  0001 C CNN
-	1    3250 3550
+P 3110 2870
+F 0 "J22" H 3080 2920 50  0000 L CNN
+F 1 "+" V 3110 2770 50  0000 L CNN
+F 2 "additions:BananaPlug_custom" H 3110 2870 50  0001 C CNN
+F 3 "~" H 3110 2870 50  0001 C CNN
+	1    3110 2870
 	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Q_PMOS_GSD Q2
-U 1 1 61030463
-P 3750 3450
-F 0 "Q2" V 3999 3450 50  0000 C CNN
-F 1 "P_MOS" V 4090 3450 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:TO-252-3_TabPin2" H 3950 3550 50  0001 C CNN
-F 3 "https://www.renesas.com/us/en/document/dst/np36p06slg-data-sheet" H 3750 3450 50  0001 C CNN
-	1    3750 3450
-	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R11
 U 1 1 61030469
-P 3750 3000
-F 0 "R11" H 3680 2954 50  0000 R CNN
-F 1 "100K" H 3680 3045 50  0000 R CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" V 3680 3000 50  0001 C CNN
-F 3 "~" H 3750 3000 50  0001 C CNN
-	1    3750 3000
-	-1   0    0    1   
+P 4000 3420
+F 0 "R11" H 3930 3374 50  0000 R CNN
+F 1 "10K" H 3930 3465 50  0000 R CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 3930 3420 50  0001 C CNN
+F 3 "~" H 4000 3420 50  0001 C CNN
+	1    4000 3420
+	1    0    0    -1  
 $EndComp
-Text GLabel 4000 3550 2    50   Input ~ 0
+Text GLabel 4300 2870 2    50   Input ~ 0
 R2+
 Wire Wire Line
-	4000 3550 3950 3550
+	4250 2870 4300 2870
 Wire Wire Line
-	3500 3550 3450 3550
-Wire Wire Line
-	3600 2850 3600 2750
+	4150 3570 4150 3670
 Text GLabel 4900 3650 3    50   Input ~ 0
 R2+
 Wire Wire Line
@@ -347,43 +321,43 @@ Wire Wire Line
 Wire Wire Line
 	4900 4400 4750 4400
 Wire Wire Line
-	3750 3150 3750 3200
+	4000 3270 4000 3220
 Wire Wire Line
-	3500 3200 3750 3200
-Connection ~ 3750 3200
+	4250 3220 4000 3220
+Connection ~ 4000 3220
 Wire Wire Line
-	3750 3200 3750 3250
+	4000 3220 4000 3170
 Wire Wire Line
-	3500 3500 3500 3550
+	4250 2920 4250 2870
 Wire Wire Line
-	3500 3550 3550 3550
+	4250 2870 4200 2870
 Wire Wire Line
-	3550 2850 3600 2850
-Text GLabel 3550 2700 0    50   Input ~ 0
+	4200 3570 4150 3570
+Text GLabel 4200 3720 2    50   Input ~ 0
 R2-
 Wire Wire Line
-	3550 2700 3600 2700
+	4200 3720 4150 3720
 $Comp
 L Connector:Conn_01x01_Male J17
 U 1 1 6103049E
-P 3350 2850
-F 0 "J17" H 3350 2800 50  0000 L CNN
-F 1 "-" H 3300 2900 50  0000 L CNN
-F 2 "additions:BananaPlug_custom" H 3350 2850 50  0001 C CNN
-F 3 "~" H 3350 2850 50  0001 C CNN
-	1    3350 2850
-	1    0    0    -1  
+P 4400 3570
+F 0 "J17" H 4400 3520 50  0000 L CNN
+F 1 "-" H 4350 3620 50  0000 L CNN
+F 2 "additions:BananaPlug_custom" H 4400 3570 50  0001 C CNN
+F 3 "~" H 4400 3570 50  0001 C CNN
+	1    4400 3570
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Zener D3
 U 1 1 610304A4
-P 3500 3350
-F 0 "D3" V 3600 3400 50  0000 C CNN
-F 1 "D_Zener" V 3700 3300 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-323" H 3500 3350 50  0001 C CNN
-F 3 "https://my.centralsemi.com/datasheets/CMDZ5221B-61B.PDF" H 3500 3350 50  0001 C CNN
-	1    3500 3350
-	0    -1   -1   0   
+P 4250 3070
+F 0 "D3" V 4350 3120 50  0000 C CNN
+F 1 "D_Zener" V 4450 3020 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-323" H 4250 3070 50  0001 C CNN
+F 3 "https://my.centralsemi.com/datasheets/CMDZ5221B-61B.PDF" H 4250 3070 50  0001 C CNN
+	1    4250 3070
+	0    1    1    0   
 $EndComp
 Text GLabel 4900 4100 2    50   Input ~ 0
 R2-
@@ -394,19 +368,19 @@ Wire Wire Line
 Wire Wire Line
 	4750 4100 4900 4100
 Wire Wire Line
-	3600 2700 3600 2750
-Connection ~ 3600 2750
-Connection ~ 3500 3550
+	4150 3720 4150 3670
+Connection ~ 4150 3670
+Connection ~ 4250 2870
 Wire Wire Line
-	3600 2750 3750 2750
+	4150 3670 4000 3670
 Wire Wire Line
-	3750 2750 3750 2850
+	4000 3670 4000 3570
 Wire Notes Line
 	5150 4650 3150 4650
 Wire Bus Line
 	3050 2500 5250 2500
 $Comp
-L AGQ200A24Z:AGQ200A24Z K3
+L RelayControls-HPK-rescue:AGQ200A24Z-AGQ200A24Z K3
 U 1 1 61040DE1
 P 5800 4100
 F 0 "K3" H 6400 3650 50  0000 C CNN
@@ -444,44 +418,29 @@ Wire Wire Line
 $Comp
 L Connector:Conn_01x01_Male J36
 U 1 1 61040DF4
-P 5500 3550
-F 0 "J36" H 5460 3600 50  0000 L CNN
-F 1 "+" V 5500 3450 50  0000 L CNN
-F 2 "additions:BananaPlug_custom" H 5500 3550 50  0001 C CNN
-F 3 "~" H 5500 3550 50  0001 C CNN
-	1    5500 3550
+P 5430 2890
+F 0 "J36" H 5390 2940 50  0000 L CNN
+F 1 "+" V 5430 2790 50  0000 L CNN
+F 2 "additions:BananaPlug_custom" H 5430 2890 50  0001 C CNN
+F 3 "~" H 5430 2890 50  0001 C CNN
+	1    5430 2890
 	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Q_PMOS_GSD Q3
-U 1 1 61040DFA
-P 6000 3450
-F 0 "Q3" V 6249 3450 50  0000 C CNN
-F 1 "P_MOS" V 6340 3450 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:TO-252-3_TabPin2" H 6200 3550 50  0001 C CNN
-F 3 "https://www.renesas.com/us/en/document/dst/np36p06slg-data-sheet" H 6000 3450 50  0001 C CNN
-	1    6000 3450
-	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R21
 U 1 1 61040E00
-P 6000 3000
-F 0 "R21" H 5930 2954 50  0000 R CNN
-F 1 "100K" H 5930 3045 50  0000 R CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" V 5930 3000 50  0001 C CNN
-F 3 "~" H 6000 3000 50  0001 C CNN
-	1    6000 3000
-	-1   0    0    1   
+P 6400 3440
+F 0 "R21" H 6330 3394 50  0000 R CNN
+F 1 "10K" H 6330 3485 50  0000 R CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 6330 3440 50  0001 C CNN
+F 3 "~" H 6400 3440 50  0001 C CNN
+	1    6400 3440
+	1    0    0    -1  
 $EndComp
-Text GLabel 6250 3550 2    50   Input ~ 0
+Text GLabel 6750 2890 2    50   Input ~ 0
 R3+
 Wire Wire Line
-	6250 3550 6200 3550
-Wire Wire Line
-	5750 3550 5700 3550
-Wire Wire Line
-	5850 2850 5850 2750
+	6550 3590 6550 3690
 Text GLabel 7150 3650 3    50   Input ~ 0
 R3+
 Wire Wire Line
@@ -515,43 +474,43 @@ Wire Wire Line
 Wire Wire Line
 	7150 4400 7000 4400
 Wire Wire Line
-	6000 3150 6000 3200
+	6400 3290 6400 3240
 Wire Wire Line
-	5750 3200 6000 3200
-Connection ~ 6000 3200
+	6650 3240 6400 3240
+Connection ~ 6400 3240
 Wire Wire Line
-	6000 3200 6000 3250
+	6400 3240 6400 3190
 Wire Wire Line
-	5750 3500 5750 3550
+	6650 2940 6650 2890
 Wire Wire Line
-	5750 3550 5800 3550
+	6650 2890 6600 2890
 Wire Wire Line
-	5800 2850 5850 2850
-Text GLabel 5800 2700 0    50   Input ~ 0
+	6600 3590 6550 3590
+Text GLabel 6600 3740 2    50   Input ~ 0
 R3-
 Wire Wire Line
-	5800 2700 5850 2700
+	6600 3740 6550 3740
 $Comp
 L Connector:Conn_01x01_Male J31
 U 1 1 61040E35
-P 5600 2850
-F 0 "J31" H 5600 2800 50  0000 L CNN
-F 1 "-" H 5550 2900 50  0000 L CNN
-F 2 "additions:BananaPlug_custom" H 5600 2850 50  0001 C CNN
-F 3 "~" H 5600 2850 50  0001 C CNN
-	1    5600 2850
-	1    0    0    -1  
+P 6800 3590
+F 0 "J31" H 6800 3540 50  0000 L CNN
+F 1 "-" H 6750 3640 50  0000 L CNN
+F 2 "additions:BananaPlug_custom" H 6800 3590 50  0001 C CNN
+F 3 "~" H 6800 3590 50  0001 C CNN
+	1    6800 3590
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Zener D5
 U 1 1 61040E3B
-P 5750 3350
-F 0 "D5" V 5850 3400 50  0000 C CNN
-F 1 "D_Zener" V 5950 3300 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-323" H 5750 3350 50  0001 C CNN
-F 3 "https://my.centralsemi.com/datasheets/CMDZ5221B-61B.PDF" H 5750 3350 50  0001 C CNN
-	1    5750 3350
-	0    -1   -1   0   
+P 6650 3090
+F 0 "D5" V 6750 3140 50  0000 C CNN
+F 1 "D_Zener" V 6850 3040 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-323" H 6650 3090 50  0001 C CNN
+F 3 "https://my.centralsemi.com/datasheets/CMDZ5221B-61B.PDF" H 6650 3090 50  0001 C CNN
+	1    6650 3090
+	0    1    1    0   
 $EndComp
 Text GLabel 7150 4100 2    50   Input ~ 0
 R3-
@@ -562,13 +521,13 @@ Wire Wire Line
 Wire Wire Line
 	7000 4100 7150 4100
 Wire Wire Line
-	5850 2700 5850 2750
-Connection ~ 5850 2750
-Connection ~ 5750 3550
+	6550 3740 6550 3690
+Connection ~ 6550 3690
+Connection ~ 6650 2890
 Wire Wire Line
-	5850 2750 6000 2750
+	6550 3690 6400 3690
 Wire Wire Line
-	6000 2750 6000 2850
+	6400 3690 6400 3590
 Wire Notes Line
 	7400 4650 5400 4650
 Wire Bus Line
@@ -2273,6 +2232,86 @@ F 1 "10K" V 6890 8640 50  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 6780 8920 50  0001 C CNN
 F 3 "https://www.nteinc.com/resistor_web/pdf/250mW.pdf" H 6850 8920 50  0001 C CNN
 	1    6850 8920
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Transistor_FET:BS250 Q1
+U 1 1 6111B1A3
+P 1810 3010
+F 0 "Q1" V 2152 3010 50  0000 C CNN
+F 1 "BS250" V 2061 3010 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:TO-252-3_TabPin2" H 2010 2935 50  0001 L CIN
+F 3 "https://www.onsemi.com/pdf/datasheet/ena1597-d.pdf" H 1810 3010 50  0001 L CNN
+	1    1810 3010
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:Fuse F1
+U 1 1 611BD67D
+P 1360 2910
+F 0 "F1" V 1163 2910 50  0000 C CNN
+F 1 "Fuse" V 1254 2910 50  0000 C CNN
+F 2 "Fuse:Fuse_2920_7451Metric" V 1290 2910 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Littelfuse%20PDFs/ASMDC300F24.pdf" H 1360 2910 50  0001 C CNN
+	1    1360 2910
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1210 2910 1150 2910
+Wire Wire Line
+	1510 2910 1610 2910
+Wire Wire Line
+	3390 2870 3310 2870
+Wire Wire Line
+	3690 2870 3800 2870
+$Comp
+L Transistor_FET:BS250 Q2
+U 1 1 61356BD2
+P 4000 2970
+F 0 "Q2" V 4342 2970 50  0000 C CNN
+F 1 "BS250" V 4251 2970 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:TO-252-3_TabPin2" H 4200 2895 50  0001 L CIN
+F 3 "https://www.onsemi.com/pdf/datasheet/ena1597-d.pdf" H 4000 2970 50  0001 L CNN
+	1    4000 2970
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:Fuse F2
+U 1 1 6137723A
+P 3540 2870
+F 0 "F2" V 3343 2870 50  0000 C CNN
+F 1 "Fuse" V 3434 2870 50  0000 C CNN
+F 2 "Fuse:Fuse_2920_7451Metric" V 3470 2870 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Littelfuse%20PDFs/ASMDC300F24.pdf" H 3540 2870 50  0001 C CNN
+	1    3540 2870
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6650 2890 6750 2890
+$Comp
+L Device:Fuse F3
+U 1 1 61454692
+P 5920 2890
+F 0 "F3" V 5723 2890 50  0000 C CNN
+F 1 "Fuse" V 5814 2890 50  0000 C CNN
+F 2 "Fuse:Fuse_2920_7451Metric" V 5850 2890 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Littelfuse%20PDFs/ASMDC300F24.pdf" H 5920 2890 50  0001 C CNN
+	1    5920 2890
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6200 2890 6070 2890
+Wire Wire Line
+	5770 2890 5630 2890
+$Comp
+L Transistor_FET:BS250 Q3
+U 1 1 614D2386
+P 6400 2990
+F 0 "Q3" V 6742 2990 50  0000 C CNN
+F 1 "BS250" V 6651 2990 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:TO-252-3_TabPin2" H 6600 2915 50  0001 L CIN
+F 3 "https://www.onsemi.com/pdf/datasheet/ena1597-d.pdf" H 6400 2990 50  0001 L CNN
+	1    6400 2990
 	0    -1   -1   0   
 $EndComp
 $EndSCHEMATC
