@@ -17,4 +17,4 @@ These relays can be controlled whitout software, however the entented way is to 
 
 ## Pictures
 ![Connector_Board](https://github.com/SensaGroup/RelayBox/blob/main/Version%202/Documents/Pictures/ConnctorBoardProfile.png)
-![Relay_Board](hhttps://github.com/SensaGroup/RelayBox/blob/main/Version%202/Documents/Pictures/RelayBoardProfile.png)
+![Relay_Board](https://github.com/SensaGroup/RelayBox/blob/main/Version%202/Documents/Pictures/RelayBoardProfile.png)
