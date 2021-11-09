@@ -10,6 +10,7 @@ The PCB is an interface using banana plugs whit relays, these relays are used to
 - Each row has 4 replicated outputs of the relay. 
 - Each of these outputs have redundant loads. 
 - VCC and GND pass trough. 
+- Short circuit protection.
 - Each stack is made out of the connector board and the relay board. It is designed in this way due to size constraints.
 
 ## Software
