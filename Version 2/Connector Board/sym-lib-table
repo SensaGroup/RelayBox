@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name AGQ200A24Z)(type Legacy)(uri ${KIPRJMOD}/Additions/AGQ200A24Z.lib)(options "")(descr ""))
+  (lib (name RelayControls-HPK-rescue)(type Legacy)(uri ${KIPRJMOD}/RelayControls-HPK-rescue.lib)(options "")(descr ""))
+  (lib (name PY14-02)(type Legacy)(uri "C:/Users/kurdish_yoda/OneDrive/Documents/Pneumatic Workstation/HPK Electronics/RelayBox/Version 2/Additions/PY14-02.lib")(options "")(descr ""))
+)

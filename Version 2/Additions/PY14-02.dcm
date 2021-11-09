@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PY14-02
+D OMRON INDUSTRIAL AUTOMATION - PY14-02 - SOCKET, PCB, MY4, RELAY
+K
+F http://www.ia.omron.com/data_pdf/cat/my_ds_e_7_3_csm59.pdf
+$ENDCMP
+#
+#End Doc Library
