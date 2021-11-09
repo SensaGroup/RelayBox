@@ -16,4 +16,4 @@ The PCB is an interface using banana plugs whit relays, these relays are used to
 These relays can be controlled whitout software, however the entented way is to control the operations using the SENSA GROUP fortis PLC. 
 
 ## Pictures
-![Top_view](https://github.com/SensaGroup/RelayBox/blob/main/Documents/Pictures/profile.jpg)
+![Top_view](https://github.com/SensaGroup/RelayBox/blob/main/Version%201/Documents/Pictures/profile.jpg)
